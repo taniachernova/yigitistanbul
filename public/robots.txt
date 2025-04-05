@@ -1,0 +1,21 @@
+# Esenyurt Escort Robots.txt
+# Son güncelleme: 2025-04-05
+
+User-agent: *
+Allow: /
+
+# Özel bölümleri tarama
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+# Medya dosyaları
+Allow: /images/
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Sitemap
+Sitemap: https://yiğitistanbul.com/sitemap.xml 

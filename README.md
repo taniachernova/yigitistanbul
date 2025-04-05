@@ -1,24 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# İstanbul VIP Escort Web Uygulaması
 
-## Getting Started
+Bu proje, Next.js kullanılarak geliştirilmiş bir web uygulamasıdır.
 
-First, run the development server:
+## Resim Dizin Yapısı
+
+Resimleri şu şekilde organize ettik:
+
+```
+public/
+  ├── images/
+  │   ├── platin/
+  │   │   ├── platin-escort-1.jpg
+  │   │   ├── platin-escort-2.jpg
+  │   │   └── ...
+  │   │   ├── platin-vip-17.jpg
+  │   │   ├── platin-vip-18.jpg
+  │   │   └── ...
+  │   │
+  │   └── altin/
+  │       ├── altin-escort-1.jpg
+  │       ├── altin-escort-2.jpg
+  │       └── ...
+  │       ├── altin-ozel-9.jpg
+  │       ├── altin-ozel-10.jpg
+  │       └── ...
+```
+
+### Resim Dosyaları
+
+1. **Platin Kategori**:
+   - `platin-escort-1.jpg` - `platin-escort-16.jpg`: İlk sıradaki platin üyeler
+   - `platin-vip-17.jpg` - `platin-vip-32.jpg`: İkinci sıradaki platin VIP üyeler
+
+2. **Altın Kategori**:
+   - `altin-escort-1.jpg` - `altin-escort-8.jpg`: İlk sıradaki altın üyeler
+   - `altin-ozel-9.jpg` - `altin-ozel-16.jpg`: İkinci sıradaki özel üyeler
+
+## Resim Değiştirme
+
+Resim değiştirmek için, ilgili dosyayı aynı isimle değiştirmeniz yeterlidir. Örneğin:
+
+1. `public/images/platin/platin-escort-1.jpg` dosyasını kendi resminizle değiştirin.
+2. Aynı isim ve yolu koruduğunuz sürece, uygulama otomatik olarak yeni resmi gösterecektir.
+
+## Geliştirme
+
+Geliştirme sunucusunu başlatmak için:
 
 ```bash
 npm run dev
-# or
+# veya
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açarak sonucu görebilirsiniz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## SEO Yapısı
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Bu web uygulaması, SEO için optimize edilmiştir:
+
+1. Semantik HTML yapısı
+2. Optimize edilmiş meta etiketleri
+3. Schema.org yapısal veri işaretlemeleri
+4. Sitemap.xml desteği
+5. SEO dostu URL yapısı
 
 ## Learn More
 
