@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Site base URL
-  const baseUrl = 'https://yiğitistanbul.com';
+  const baseUrl = 'https://yigitistanbul.com';
   
   // Geçerli tarih ve saati al
   const today = new Date();

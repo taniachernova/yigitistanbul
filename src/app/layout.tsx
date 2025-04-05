@@ -36,13 +36,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Esenyurt Escort - Yiğit Esenyurt",
     description: "Esenyurt escort hizmetleri, vip escort, elit escort, özel escort hizmetleri. Avrupa yakasının en kaliteli escort hizmeti.",
-    url: "https://yiğitistanbul.com",
+    url: "https://yigitistanbul.com",
     siteName: "Yiğit Esenyurt",
     locale: "tr_TR",
     type: "website",
     images: [
       {
-        url: "https://yiğitistanbul.com/images/og-image.jpg",
+        url: "https://yigitistanbul.com/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Esenyurt Escort - Yiğit Esenyurt"
@@ -53,16 +53,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Esenyurt Escort - Yiğit Esenyurt',
     description: 'Esenyurt escort hizmetleri, vip escort, elit escort hizmetleri. Avrupa yakasının en kaliteli escort deneyimi.',
-    images: ['https://yiğitistanbul.com/images/twitter-image.jpg'],
+    images: ['https://yigitistanbul.com/images/twitter-image.jpg'],
   },
   alternates: {
-    canonical: "https://yiğitistanbul.com",
+    canonical: "https://yigitistanbul.com",
     languages: {
-      'tr-TR': 'https://yiğitistanbul.com',
+      'tr-TR': 'https://yigitistanbul.com',
     },
   },
   verification: {
-    google: 'Ima0pj4Yv9rkPp2zVTHnHXUq71CokbWYX5PaHttb00U', // Google Search Console doğrulama kodu
+    google: 'NR02b3aGL5SZ5x3vxW659hgQ7GPeWvhJQwh_y9qrnHc', // Google Search Console doğrulama kodu
   },
   icons: {
     icon: '/kiss.png',
@@ -83,7 +83,8 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        <link rel="canonical" href="https://yiğitistanbul.com" />
+        <link rel="canonical" href="https://yigitistanbul.com" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -92,18 +93,19 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Yiğit Esenyurt Escort",
-              "url": "https://yiğitistanbul.com",
-              "logo": "https://yiğitistanbul.com/logo.png",
+              "url": "https://yigitistanbul.com",
+              "logo": "https://yigitistanbul.com/logo.png",
               "description": "Esenyurt escort hizmetleri, vip escort, elit escort hizmetleri. Avrupa yakasının en kaliteli escort deneyimi.",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Esenyurt",
-                "addressCountry": "TR"
+                "addressRegion": "İstanbul",
+                "addressCountry": "Türkiye"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "customer service",
-                "email": "info@yiğitistanbul.com",
+                "email": "info@yigitistanbul.com",
                 "telephone": "+90123456789"
               }
             })

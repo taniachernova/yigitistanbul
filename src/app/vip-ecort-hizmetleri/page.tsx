@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'İstanbul vip escort, elit escort ve özel escort hizmetleri. Avrupa ve Anadolu yakasında en kaliteli İstanbul escort deneyimi için hemen arayın.',
   keywords: ['İstanbul vip escort', 'elit escort İstanbul', 'özel escort', 'İstanbul escort hizmetleri', 'vip escort'],
   alternates: {
-    canonical: 'https://yiğitistanbul.com/vip-escort-hizmetleri',
+    canonical: 'https://yigitistanbul.com/vip-escort-hizmetleri',
   },
 };
 
@@ -27,7 +27,7 @@ export default function VipEcortHizmetleri() {
             "provider": {
               "@type": "Organization",
               "name": "Yiğit İstanbul Escort",
-              "url": "https://yiğitistanbul.com"
+              "url": "https://yigitistanbul.com"
             },
             "areaServed": {
               "@type": "City",

@@ -17,5 +17,5 @@ Allow: /*.jpeg$
 Allow: /*.webp$
 Allow: /*.svg$
 
-# Sitemap
-Sitemap: https://yiğitistanbul.com/sitemap.xml 
+# XML Sitemap
+Sitemap: https://yigitistanbul.com/sitemap.xml 

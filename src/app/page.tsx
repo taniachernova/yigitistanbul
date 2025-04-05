@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description: 'Esenyurt escort hizmetleri, vip escort, elit escort, özel escort hizmetleri. En kaliteli Esenyurt escort deneyimi.',
   keywords: ['Esenyurt escort', 'vip escort', 'elit escort', 'özel escort', 'Esenyurt vip', 'profesyonel escort', 'escort bayan', 'Esenyurt escort bayan', 'Esenyurt elit escort', 'kaliteli escort', 'Esenyurt özel escort', 'Avcılar escort', 'Beylikdüzü escort', 'Bahçeşehir escort', 'gerçek escort', 'sarışın escort', 'esmer escort', 'premium escort', 'Esenyurt rus escort', 'yabancı escort'],
   alternates: {
-    canonical: 'https://yiğitistanbul.com/',
+    canonical: 'https://yigitistanbul.com/',
   },
   openGraph: {
     title: 'Esenyurt Escort - VIP Hizmet | Yiğit Esenyurt',
     description: 'Esenyurt escort hizmetleri, vip escort, elit escort, özel escort hizmetleri. En kaliteli Esenyurt escort deneyimi.',
-    url: 'https://yiğitistanbul.com/',
+    url: 'https://yigitistanbul.com/',
     siteName: 'Yiğit Esenyurt',
     locale: 'tr_TR',
     type: 'website',
     images: [
       {
-        url: 'https://yiğitistanbul.com/images/og-image.jpg',
+        url: 'https://yigitistanbul.com/images/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Esenyurt Escort',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Esenyurt Escort - VIP Hizmet | Yiğit Esenyurt',
     description: 'Esenyurt escort hizmetleri, vip escort, elit escort, özel escort hizmetleri. En kaliteli Esenyurt escort deneyimi.',
-    images: ['https://yiğitistanbul.com/images/twitter-image.jpg'],
+    images: ['https://yigitistanbul.com/images/twitter-image.jpg'],
   },
 };
 

@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description: 'Esenyurt vip escort, elit escort ve özel escort hizmetleri. Avrupa ve çevre ilçelerde en kaliteli Esenyurt escort deneyimi için hemen arayın.',
   keywords: ['Esenyurt vip escort', 'elit escort Esenyurt', 'özel escort', 'Esenyurt escort hizmetleri', 'vip escort', 'Avrupa yakası escort', 'Beylikdüzü escort', 'Avcılar escort', 'Bahçeşehir escort'],
   alternates: {
-    canonical: 'https://yiğitistanbul.com/vip-escort-hizmetleri',
+    canonical: 'https://yigitistanbul.com/vip-escort-hizmetleri',
   },
   openGraph: {
     title: 'Esenyurt VIP Escort Hizmetleri | Elit ve Özel Escort',
     description: 'Esenyurt vip escort, elit escort ve özel escort hizmetleri. Avrupa ve çevre ilçelerde en kaliteli Esenyurt escort deneyimi için hemen arayın.',
-    url: 'https://yiğitistanbul.com/vip-escort-hizmetleri',
+    url: 'https://yigitistanbul.com/vip-escort-hizmetleri',
     siteName: 'Yiğit Esenyurt',
     locale: 'tr_TR',
     type: 'website',
     images: [
       {
-        url: 'https://yiğitistanbul.com/images/vip-og-image.jpg',
+        url: 'https://yigitistanbul.com/images/vip-og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Esenyurt VIP Escort Hizmetleri',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Esenyurt VIP Escort Hizmetleri | Elit ve Özel Escort',
     description: 'Esenyurt vip escort, elit escort ve özel escort hizmetleri. Avrupa ve çevre ilçelerde en kaliteli Esenyurt escort deneyimi için hemen arayın.',
-    images: ['https://yiğitistanbul.com/images/vip-twitter-image.jpg'],
+    images: ['https://yigitistanbul.com/images/vip-twitter-image.jpg'],
   },
 };
 
@@ -49,7 +49,7 @@ export default function VipEscortHizmetleri() {
             "provider": {
               "@type": "Organization",
               "name": "Yiğit Esenyurt Escort",
-              "url": "https://yiğitistanbul.com"
+              "url": "https://yigitistanbul.com"
             },
             "areaServed": {
               "@type": "City",
