@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import Script from 'next/script';
@@ -34,7 +33,7 @@ export default function VipEcortHizmetleri() {
               "@type": "City",
               "name": "İstanbul"
             },
-            "description": "İstanbul'da vip escort, elit escort ve özel escort hizmetleri. En kaliteli İstanbul escort deneyimi.",
+            "description": "İstanbul&apos;da vip escort, elit escort ve özel escort hizmetleri. En kaliteli İstanbul escort deneyimi.",
             "offers": {
               "@type": "Offer",
               "availability": "https://schema.org/InStock"
@@ -54,37 +53,37 @@ export default function VipEcortHizmetleri() {
       
       <main className="flex-1 p-4 md:p-6">
         <section aria-labelledby="vip-content" className="mb-8">
-          <h2 id="vip-content" className="text-xl md:text-2xl font-bold text-center mb-6">İstanbul'un En Elit VIP Escort Hizmetleri</h2>
+          <h2 id="vip-content" className="text-xl md:text-2xl font-bold text-center mb-6">İstanbul&apos;un En Elit VIP Escort Hizmetleri</h2>
           
           {/* Soldan sağa akan metin içerik alanları */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="bg-white rounded-lg shadow-md p-5 transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Premium VIP Escort Hizmetleri</h3>
-              <p className="text-gray-700">İstanbul'un en elit escort hizmetleri için doğru adrestesiniz. Profesyonel ve kaliteli hizmet anlayışımızla size en iyi deneyimi sunuyoruz. Vip escort hizmetlerimiz ile İstanbul'un her bölgesinde kaliteli hizmet vermekteyiz.</p>
+              <p className="text-gray-700">İstanbul&apos;un en elit escort hizmetleri için doğru adrestesiniz. Profesyonel ve kaliteli hizmet anlayışımızla size en iyi deneyimi sunuyoruz. Vip escort hizmetlerimiz ile İstanbul&apos;un her bölgesinde kaliteli hizmet vermekteyiz.</p>
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-5 transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">İstanbul Elit Escort Deneyimi</h3>
-              <p className="text-gray-700">İstanbul escort, vip escort ve elit escort kategorilerinde hizmet veren platformumuz, İstanbul'un her bölgesinde hizmet sunmaktadır. İstanbul Avrupa yakası ve Anadolu yakasında özel escort hizmeti için bizi tercih edebilirsiniz.</p>
+              <p className="text-gray-700">İstanbul escort, vip escort ve elit escort kategorilerinde hizmet veren platformumuz, İstanbul&apos;un her bölgesinde hizmet sunmaktadır. İstanbul Avrupa yakası ve Anadolu yakasında özel escort hizmeti için bizi tercih edebilirsiniz.</p>
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-5 transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Özel VIP Escort</h3>
-              <p className="text-gray-700">Özel escort hizmetlerimiz ile kendinizi özel hissedeceğiniz bir deneyim yaşayabilirsiniz. İstanbul'da elit escort hizmeti sunan platformumuz, güvenilir ve kaliteli hizmet anlayışını benimsemektedir.</p>
+              <p className="text-gray-700">Özel escort hizmetlerimiz ile kendinizi özel hissedeceğiniz bir deneyim yaşayabilirsiniz. İstanbul&apos;da elit escort hizmeti sunan platformumuz, güvenilir ve kaliteli hizmet anlayışını benimsemektedir.</p>
             </div>
           </div>
           
           {/* İkinci satır metin içerik alanları */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white rounded-lg shadow-md p-5 transition-transform hover:shadow-lg">
-              <h3 className="text-lg font-semibold mb-3 text-black">İstanbul'da Escort</h3>
-              <p className="text-gray-700">İstanbul'un merkezi konumlarında bulunan escort hizmetlerimiz, size en kaliteli deneyimi yaşatmak için tasarlanmıştır. Profesyonel ekibimiz ve özenle seçilmiş üyelerimiz ile hizmet vermekteyiz. İstanbul escort hizmeti için doğru adrestesiniz.</p>
-              <p className="text-gray-700 mt-3">VIP escort hizmetlerimiz ile İstanbul'un her noktasında güvenilir ve kaliteli hizmet alabilirsiniz. İstanbul'un en elit escort platformu olarak hizmet vermekten gurur duyuyoruz.</p>
+              <h3 className="text-lg font-semibold mb-3 text-black">İstanbul&apos;da Escort</h3>
+              <p className="text-gray-700">İstanbul&apos;un merkezi konumlarında bulunan escort hizmetlerimiz, size en kaliteli deneyimi yaşatmak için tasarlanmıştır. Profesyonel ekibimiz ve özenle seçilmiş üyelerimiz ile hizmet vermekteyiz. İstanbul escort hizmeti için doğru adrestesiniz.</p>
+              <p className="text-gray-700 mt-3">VIP escort hizmetlerimiz ile İstanbul&apos;un her noktasında güvenilir ve kaliteli hizmet alabilirsiniz. İstanbul&apos;un en elit escort platformu olarak hizmet vermekten gurur duyuyoruz.</p>
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-5 transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Profesyonel Escort Hizmeti</h3>
-              <p className="text-gray-700">İstanbul'da profesyonel escort hizmeti arıyorsanız, platformumuz sizin için en doğru tercih olacaktır. Yüksek kalite standartlarımız ve müşteri memnuniyeti odaklı hizmet anlayışımız ile sektörde öncü konumdayız.</p>
+              <p className="text-gray-700">İstanbul&apos;da profesyonel escort hizmeti arıyorsanız, platformumuz sizin için en doğru tercih olacaktır. Yüksek kalite standartlarımız ve müşteri memnuniyeti odaklı hizmet anlayışımız ile sektörde öncü konumdayız.</p>
               <p className="text-gray-700 mt-3">VIP escort kategorisinde yer alan üyelerimiz, sizlere unutulmaz anlar yaşatmak için sabırsızlanıyor. İstanbul escort deneyimi için hemen şimdi iletişime geçebilirsiniz.</p>
             </div>
           </div>
@@ -92,9 +91,9 @@ export default function VipEcortHizmetleri() {
           {/* Üçüncü satır tam genişlik metin alanı */}
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
             <h3 className="text-lg font-semibold mb-3 text-center text-black">İstanbul Escort Platformu</h3>
-            <p className="text-gray-700">İstanbul escort platformumuz, en kaliteli ve güvenilir hizmeti sunmak için titizlikle çalışmaktadır. Elit escort hizmetimiz, İstanbul'un her bölgesinde en yüksek standartlarda sunulmaktadır. Avrupa Yakası ve Anadolu Yakası'nda vip escort hizmeti almak için platformumuzu tercih edebilirsiniz.</p>
-            <p className="text-gray-700 mt-3">İstanbul'da escort hizmeti veren platformumuz, müşteri memnuniyetini en üst düzeyde tutmak için çalışmaktadır. Özel escort kategorisinde yer alan üyelerimiz, sizlere en iyi deneyimi yaşatmak için bekliyor. VIP escort hizmetlerimiz ile İstanbul'un her noktasında kaliteli ve güvenilir hizmet alabilirsiniz.</p>
-            <p className="text-gray-700 mt-3">İstanbul escort platformu olarak, sizlere en iyi hizmeti sunmak için sürekli kendimizi geliştirmekteyiz. Elit escort hizmetlerimiz ile İstanbul'un en kaliteli escort deneyimini yaşayabilirsiniz. VIP üyelerimiz ile unutulmaz anlar yaşamak için hemen şimdi iletişime geçebilirsiniz.</p>
+            <p className="text-gray-700">İstanbul escort platformumuz, en kaliteli ve güvenilir hizmeti sunmak için titizlikle çalışmaktadır. Elit escort hizmetimiz, İstanbul&apos;un her bölgesinde en yüksek standartlarda sunulmaktadır. Avrupa Yakası ve Anadolu Yakası&apos;nda vip escort hizmeti almak için platformumuzu tercih edebilirsiniz.</p>
+            <p className="text-gray-700 mt-3">İstanbul&apos;da escort hizmeti veren platformumuz, müşteri memnuniyetini en üst düzeyde tutmak için çalışmaktadır. Özel escort kategorisinde yer alan üyelerimiz, sizlere en iyi deneyimi yaşatmak için bekliyor. VIP escort hizmetlerimiz ile İstanbul&apos;un her noktasında kaliteli ve güvenilir hizmet alabilirsiniz.</p>
+            <p className="text-gray-700 mt-3">İstanbul escort platformu olarak, sizlere en iyi hizmeti sunmak için sürekli kendimizi geliştirmekteyiz. Elit escort hizmetlerimiz ile İstanbul&apos;un en kaliteli escort deneyimini yaşayabilirsiniz. VIP üyelerimiz ile unutulmaz anlar yaşamak için hemen şimdi iletişime geçebilirsiniz.</p>
           </div>
         </section>
         

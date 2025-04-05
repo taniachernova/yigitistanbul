@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import PageNavigation from '../components/PageNavigation';
@@ -57,7 +55,7 @@ export default function VipEscortHizmetleri() {
               "@type": "City",
               "name": "Esenyurt"
             },
-            "description": "Esenyurt'ta vip escort, elit escort ve özel escort hizmetleri. En kaliteli Esenyurt escort deneyimi.",
+            "description": "Esenyurt&apos;ta vip escort, elit escort ve özel escort hizmetleri. En kaliteli Esenyurt escort deneyimi.",
             "offers": {
               "@type": "Offer",
               "availability": "https://schema.org/InStock"
@@ -77,42 +75,42 @@ export default function VipEscortHizmetleri() {
       
       <main className="flex-1 p-4 md:p-6">
         <section aria-labelledby="vip-content" className="mb-8">
-          <h2 id="vip-content" className="text-xl md:text-2xl font-bold text-center mb-6">Esenyurt'un En Elit VIP Escort Hizmetleri</h2>
+          <h2 id="vip-content" className="text-xl md:text-2xl font-bold text-center mb-6">Esenyurt&apos;un En Elit VIP Escort Hizmetleri</h2>
           
           {/* Soldan sağa akan metin içerik alanları */}
           <div className="flex flex-col gap-4 mb-8">
             <article className="bg-white rounded-lg shadow-md p-5 w-full transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Premium VIP Escort Hizmetleri</h3>
-              <p className="text-gray-700">Esenyurt'un en elit escort hizmetleri için doğru adrestesiniz. Profesyonel ve kaliteli hizmet anlayışımızla size en iyi deneyimi sunuyoruz. Vip escort hizmetlerimiz ile Esenyurt'un her bölgesinde kaliteli hizmet vermekteyiz.</p>
+              <p className="text-gray-700">Esenyurt&apos;un en elit escort hizmetleri için doğru adrestesiniz. Profesyonel ve kaliteli hizmet anlayışımızla size en iyi deneyimi sunuyoruz. Vip escort hizmetlerimiz ile Esenyurt&apos;un her bölgesinde kaliteli hizmet vermekteyiz.</p>
             </article>
             
             <article className="bg-white rounded-lg shadow-md p-5 w-full transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Esenyurt Elit Escort Deneyimi</h3>
-              <p className="text-gray-700">Esenyurt escort, vip escort ve elit escort kategorilerinde hizmet veren platformumuz, Esenyurt'un her bölgesinde hizmet sunmaktadır. Esenyurt Avrupa yakası ve çevre ilçelerde özel escort hizmeti için bizi tercih edebilirsiniz.</p>
+              <p className="text-gray-700">Esenyurt escort, vip escort ve elit escort kategorilerinde hizmet veren platformumuz, Esenyurt&apos;un her bölgesinde hizmet sunmaktadır. Esenyurt Avrupa yakası ve çevre ilçelerde özel escort hizmeti için bizi tercih edebilirsiniz.</p>
             </article>
             
             <article className="bg-white rounded-lg shadow-md p-5 w-full transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Özel VIP Escort</h3>
-              <p className="text-gray-700">Özel escort hizmetlerimiz ile kendinizi özel hissedeceğiniz bir deneyim yaşayabilirsiniz. Esenyurt'ta elit escort hizmeti sunan platformumuz, güvenilir ve kaliteli hizmet anlayışını benimsemektedir.</p>
+              <p className="text-gray-700">Özel escort hizmetlerimiz ile kendinizi özel hissedeceğiniz bir deneyim yaşayabilirsiniz. Esenyurt&apos;ta elit escort hizmeti sunan platformumuz, güvenilir ve kaliteli hizmet anlayışını benimsemektedir.</p>
             </article>
 
             <article className="bg-white rounded-lg shadow-md p-5 w-full transition-transform hover:shadow-lg">
-              <h3 className="text-lg font-semibold mb-3 text-black">Esenyurt'ta Escort</h3>
-              <p className="text-gray-700">Esenyurt'un merkezi konumlarında bulunan escort hizmetlerimiz, size en kaliteli deneyimi yaşatmak için tasarlanmıştır. Profesyonel ekibimiz ve özenle seçilmiş üyelerimiz ile hizmet vermekteyiz. Esenyurt escort hizmeti için doğru adrestesiniz.</p>
-              <p className="text-gray-700 mt-3">VIP escort hizmetlerimiz ile Esenyurt'un her noktasında güvenilir ve kaliteli hizmet alabilirsiniz. Esenyurt'un en elit escort platformu olarak hizmet vermekten gurur duyuyoruz.</p>
+              <h3 className="text-lg font-semibold mb-3 text-black">Esenyurt&apos;ta Escort</h3>
+              <p className="text-gray-700">Esenyurt&apos;un merkezi konumlarında bulunan escort hizmetlerimiz, size en kaliteli deneyimi yaşatmak için tasarlanmıştır. Profesyonel ekibimiz ve özenle seçilmiş üyelerimiz ile hizmet vermekteyiz. Esenyurt escort hizmeti için doğru adrestesiniz.</p>
+              <p className="text-gray-700 mt-3">VIP escort hizmetlerimiz ile Esenyurt&apos;un her noktasında güvenilir ve kaliteli hizmet alabilirsiniz. Esenyurt&apos;un en elit escort platformu olarak hizmet vermekten gurur duyuyoruz.</p>
             </article>
             
             <article className="bg-white rounded-lg shadow-md p-5 w-full transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Profesyonel Escort Hizmeti</h3>
-              <p className="text-gray-700">Esenyurt'ta profesyonel escort hizmeti arıyorsanız, platformumuz sizin için en doğru tercih olacaktır. Yüksek kalite standartlarımız ve müşteri memnuniyeti odaklı hizmet anlayışımız ile sektörde öncü konumdayız.</p>
+              <p className="text-gray-700">Esenyurt&apos;ta profesyonel escort hizmeti arıyorsanız, platformumuz sizin için en doğru tercih olacaktır. Yüksek kalite standartlarımız ve müşteri memnuniyeti odaklı hizmet anlayışımız ile sektörde öncü konumdayız.</p>
               <p className="text-gray-700 mt-3">VIP escort kategorisinde yer alan üyelerimiz, sizlere unutulmaz anlar yaşatmak için sabırsızlanıyor. Esenyurt escort deneyimi için hemen şimdi iletişime geçebilirsiniz.</p>
             </article>
             
             <article className="bg-white rounded-lg shadow-md p-5 w-full transition-transform hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-3 text-black">Esenyurt Escort Platformu</h3>
-              <p className="text-gray-700">Esenyurt escort platformumuz, en kaliteli ve güvenilir hizmeti sunmak için titizlikle çalışmaktadır. Elit escort hizmetimiz, Esenyurt'un her bölgesinde en yüksek standartlarda sunulmaktadır. <strong>Esenyurt merkez</strong>, <strong>Beylikdüzü</strong>, <strong>Avcılar</strong> ve <strong>Bahçeşehir</strong> bölgelerinde vip escort hizmeti almak için platformumuzu tercih edebilirsiniz.</p>
-              <p className="text-gray-700 mt-3">Esenyurt'ta escort hizmeti veren platformumuz, müşteri memnuniyetini en üst düzeyde tutmak için çalışmaktadır. Özel escort kategorisinde yer alan üyelerimiz, sizlere en iyi deneyimi yaşatmak için bekliyor. VIP escort hizmetlerimiz ile Esenyurt'un her noktasında kaliteli ve güvenilir hizmet alabilirsiniz.</p>
-              <p className="text-gray-700 mt-3">Esenyurt escort platformu olarak, sizlere en iyi hizmeti sunmak için sürekli kendimizi geliştirmekteyiz. Elit escort hizmetlerimiz ile Esenyurt'un en kaliteli escort deneyimini yaşayabilirsiniz. VIP üyelerimiz ile unutulmaz anlar yaşamak için hemen şimdi iletişime geçebilirsiniz.</p>
+              <p className="text-gray-700">Esenyurt escort platformumuz, en kaliteli ve güvenilir hizmeti sunmak için titizlikle çalışmaktadır. Elit escort hizmetimiz, Esenyurt&apos;un her bölgesinde en yüksek standartlarda sunulmaktadır. <strong>Esenyurt merkez</strong>, <strong>Beylikdüzü</strong>, <strong>Avcılar</strong> ve <strong>Bahçeşehir</strong> bölgelerinde vip escort hizmeti almak için platformumuzu tercih edebilirsiniz.</p>
+              <p className="text-gray-700 mt-3">Esenyurt&apos;ta escort hizmeti veren platformumuz, müşteri memnuniyetini en üst düzeyde tutmak için çalışmaktadır. Özel escort kategorisinde yer alan üyelerimiz, sizlere en iyi deneyimi yaşatmak için bekliyor. VIP escort hizmetlerimiz ile Esenyurt&apos;un her noktasında kaliteli ve güvenilir hizmet alabilirsiniz.</p>
+              <p className="text-gray-700 mt-3">Esenyurt escort platformu olarak, sizlere en iyi hizmeti sunmak için sürekli kendimizi geliştirmekteyiz. Elit escort hizmetlerimiz ile Esenyurt&apos;un en kaliteli escort deneyimini yaşayabilirsiniz. VIP üyelerimiz ile unutulmaz anlar yaşamak için hemen şimdi iletişime geçebilirsiniz.</p>
             </article>
           </div>
         </section>
