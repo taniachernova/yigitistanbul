@@ -1,35 +1,16 @@
-# Esenyurt Escort Robots.txt
-# Son güncelleme: 2025-04-09
+# https://yigitistanbul.com/robots.txt
+# Last updated: 2024-03-20
 
 User-agent: *
 Allow: /
-
-# Özel bölümleri tarama
-Disallow: /api/
-Disallow: /admin/
-Disallow: /_next/
-
-# Medya dosyaları
-Allow: /images/
+Allow: /vip-escort-hizmetleri
 Allow: /images/platin/
 Allow: /images/altin/
-Allow: /*.png$
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.webp$
-Allow: /*.svg$
 
-# Platin escort sayfaları
-Allow: /platin-escort
-Allow: /platin-bus
-Allow: /platin-selin
-Allow: /platin-julide
-Allow: /platin-olga
-Allow: /platin-pelin
-Allow: /platin-sabina
-Allow: /platin-cemre
-Allow: /platin-hanzade
-Allow: /platin-ilayda
+# Disallow admin and private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
 
-# XML Sitemap
+# Sitemap
 Sitemap: https://yigitistanbul.com/sitemap.xml 

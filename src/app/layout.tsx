@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://yigitistanbul.com'),
   title: {
     default: "Esenyurt Escort - Yiğit Esenyurt",
     template: "%s | Yiğit Esenyurt"
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
     images: ['https://yigitistanbul.com/images/twitter-image.jpg'],
   },
   alternates: {
-    canonical: "https://yigitistanbul.com",
+    canonical: 'https://yigitistanbul.com',
     languages: {
       'tr-TR': 'https://yigitistanbul.com',
     },
@@ -83,6 +84,9 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://yigitistanbul.com" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <Script
@@ -156,6 +160,7 @@ export default function RootLayout({
             `
           }}
         />
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
