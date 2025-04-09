@@ -27,6 +27,18 @@ const nextConfig = {
       },
       // www'dan www olmayan versiyona yönlendirme
       {
+        source: '/',
+        has: [
+          {
+            type: 'host',
+            value: 'www.yigitistanbul.com',
+          },
+        ],
+        permanent: true,
+        destination: 'https://yigitistanbul.com',
+      },
+      // Alt sayfalar için www yönlendirmesi
+      {
         source: '/:path*',
         has: [
           {
@@ -36,29 +48,6 @@ const nextConfig = {
         ],
         permanent: true,
         destination: 'https://yigitistanbul.com/:path*',
-      },
-      // Türkçe karakterli domainden ASCII versiyona yönlendirme
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'yiğitistanbul.com',
-          },
-        ],
-        permanent: true,
-        destination: 'https://yigitistanbul.com/:path*',
-      },
-      // robots.txt ve sitemap.xml için özel yönlendirmeler
-      {
-        source: '/robots.txt',
-        destination: 'https://yigitistanbul.com/robots.txt',
-        permanent: true,
-      },
-      {
-        source: '/sitemap.xml',
-        destination: 'https://yigitistanbul.com/sitemap.xml',
-        permanent: true,
       }
     ];
   },
