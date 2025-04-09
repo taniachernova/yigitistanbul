@@ -22,6 +22,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     esenyurtEscortBayan: new Date(today),
     bahcesehirEscort: new Date(today),
     avcilarEscort: new Date(today),
+    platinEscort: new Date(today),
+    platinBüs: new Date(today),
+    platinSelin: new Date(today),
+    platinJülide: new Date(today),
+    platinOlga: new Date(today),
+    platinPelin: new Date(today),
+    platinSabina: new Date(today),
+    platinCemre: new Date(today),
+    platinHanzade: new Date(today),
+    platinİlayda: new Date(today),
   };
   
   return [
@@ -102,6 +112,67 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: pageLastModifiedDates.avcilarEscort,
       changeFrequency: 'weekly',
       priority: 0.7,
+    },
+    // Platin escort sayfaları
+    {
+      url: `${baseUrl}/platin-escort`,
+      lastModified: pageLastModifiedDates.platinEscort,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/platin-bus`,
+      lastModified: pageLastModifiedDates.platinBüs,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-selin`,
+      lastModified: pageLastModifiedDates.platinSelin,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-julide`,
+      lastModified: pageLastModifiedDates.platinJülide,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-olga`,
+      lastModified: pageLastModifiedDates.platinOlga,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-pelin`,
+      lastModified: pageLastModifiedDates.platinPelin,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-sabina`,
+      lastModified: pageLastModifiedDates.platinSabina,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-cemre`,
+      lastModified: pageLastModifiedDates.platinCemre,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-hanzade`,
+      lastModified: pageLastModifiedDates.platinHanzade,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/platin-ilayda`,
+      lastModified: pageLastModifiedDates.platinİlayda,
+      changeFrequency: 'weekly',
+      priority: 0.8,
     }
   ];
 } 

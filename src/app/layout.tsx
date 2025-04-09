@@ -95,7 +95,7 @@ export default function RootLayout({
               "name": "Yiğit Esenyurt Escort",
               "url": "https://yigitistanbul.com",
               "logo": "https://yigitistanbul.com/logo.png",
-              "description": "Esenyurt escort hizmetleri, vip escort, elit escort hizmetleri. Avrupa yakasının en kaliteli escort deneyimi.",
+              "description": "Esenyurt escort hizmetleri, vip escort, elit escort hizmetleri. Avrupa yakasının en kaliteli escort deneyimi. Platin VIP escort, Büs, Selin, Jülide, Olga, Pelin, Sabina, Cemre, Hanzade, İlayda.",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Esenyurt",
@@ -107,7 +107,20 @@ export default function RootLayout({
                 "contactType": "customer service",
                 "email": "info@yigitistanbul.com",
                 "telephone": "+90123456789"
-              }
+              },
+              "sameAs": [
+                "https://yigitistanbul.com/vip-escort-hizmetleri",
+                "https://yigitistanbul.com/platin-escort",
+                "https://yigitistanbul.com/platin-bus",
+                "https://yigitistanbul.com/platin-selin",
+                "https://yigitistanbul.com/platin-julide",
+                "https://yigitistanbul.com/platin-olga",
+                "https://yigitistanbul.com/platin-pelin",
+                "https://yigitistanbul.com/platin-sabina",
+                "https://yigitistanbul.com/platin-cemre",
+                "https://yigitistanbul.com/platin-hanzade",
+                "https://yigitistanbul.com/platin-ilayda"
+              ]
             })
           }}
         />

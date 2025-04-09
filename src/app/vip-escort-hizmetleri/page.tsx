@@ -2,19 +2,20 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import PageNavigation from '../components/PageNavigation';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Esenyurt VIP Escort Hizmetleri | Elit ve Özel Escort',
-  description: 'Esenyurt vip escort, elit escort ve özel escort hizmetleri. Avrupa ve çevre ilçelerde en kaliteli Esenyurt escort deneyimi için hemen arayın.',
-  keywords: ['Esenyurt vip escort', 'elit escort Esenyurt', 'özel escort', 'Esenyurt escort hizmetleri', 'vip escort', 'Avrupa yakası escort', 'Beylikdüzü escort', 'Avcılar escort', 'Bahçeşehir escort'],
+  title: 'Esenyurt VIP Escort Hizmetleri | Şirinevler Ataköy VIP Escort',
+  description: 'Esenyurt, Şirinevler ve Ataköy bölgelerinde premium VIP escort hizmetleri. Özel platin escort hizmetleri, Büsra, Selin, Jülide, Olga, Pelin, Sabina, Cemre, Hanzade, İlayda.',
+  keywords: 'esenyurt vip escort, şirinevler vip escort, ataköy vip escort, vip escort hizmetleri, platin escort, özel escort, profesyonel escort, esenyurt escort, şirinevler escort, ataköy escort, Büsra escort, Selin escort, Jülide escort, Olga escort, Pelin escort, Sabina escort, Cemre escort, Hanzade escort, İlayda escort',
   alternates: {
     canonical: 'https://yigitistanbul.com/vip-escort-hizmetleri',
   },
   openGraph: {
-    title: 'Esenyurt VIP Escort Hizmetleri | Elit ve Özel Escort',
-    description: 'Esenyurt vip escort, elit escort ve özel escort hizmetleri. Avrupa ve çevre ilçelerde en kaliteli Esenyurt escort deneyimi için hemen arayın.',
+    title: 'Esenyurt VIP Escort Hizmetleri | Şirinevler Ataköy VIP Escort',
+    description: 'Esenyurt, Şirinevler ve Ataköy bölgelerinde premium VIP escort hizmetleri. Özel platin escort hizmetleri, Büsra, Selin, Jülide, Olga, Pelin, Sabina, Cemre, Hanzade, İlayda.',
     url: 'https://yigitistanbul.com/vip-escort-hizmetleri',
-    siteName: 'Yiğit Esenyurt',
+    siteName: 'Esenyurt VIP Escort',
     locale: 'tr_TR',
     type: 'website',
     images: [
@@ -28,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Esenyurt VIP Escort Hizmetleri | Elit ve Özel Escort',
-    description: 'Esenyurt vip escort, elit escort ve özel escort hizmetleri. Avrupa ve çevre ilçelerde en kaliteli Esenyurt escort deneyimi için hemen arayın.',
+    title: 'Esenyurt VIP Escort Hizmetleri | Şirinevler Ataköy VIP Escort',
+    description: 'Esenyurt, Şirinevler ve Ataköy bölgelerinde premium VIP escort hizmetleri. Özel platin escort hizmetleri, Büsra, Selin, Jülide, Olga, Pelin, Sabina, Cemre, Hanzade, İlayda.',
     images: ['https://yigitistanbul.com/images/vip-twitter-image.jpg'],
   },
 };
@@ -55,10 +56,79 @@ export default function VipEscortHizmetleri() {
               "@type": "City",
               "name": "Esenyurt"
             },
-            "description": "Esenyurt&apos;ta vip escort, elit escort ve özel escort hizmetleri. En kaliteli Esenyurt escort deneyimi.",
+            "description": "Esenyurt&apos;ta vip escort, elit escort ve özel escort hizmetleri. En kaliteli Esenyurt escort deneyimi. Platin VIP escort, Büs, Selin, Jülide, Olga, Pelin, Sabina, Cemre, Hanzade, İlayda.",
             "offers": {
               "@type": "Offer",
               "availability": "https://schema.org/InStock"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Esenyurt Platin VIP Escort",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Büs - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Selin - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Jülide - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Olga - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Pelin - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Sabina - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Cemre - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin Hanzade - VIP Escort"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Esenyurt Platin İlayda - VIP Escort"
+                  }
+                }
+              ]
             }
           })
         }}
@@ -112,6 +182,41 @@ export default function VipEscortHizmetleri() {
               <p className="text-gray-700 mt-3">Esenyurt&apos;ta escort hizmeti veren platformumuz, müşteri memnuniyetini en üst düzeyde tutmak için çalışmaktadır. Özel escort kategorisinde yer alan üyelerimiz, sizlere en iyi deneyimi yaşatmak için bekliyor. VIP escort hizmetlerimiz ile Esenyurt&apos;un her noktasında kaliteli ve güvenilir hizmet alabilirsiniz.</p>
               <p className="text-gray-700 mt-3">Esenyurt escort platformu olarak, sizlere en iyi hizmeti sunmak için sürekli kendimizi geliştirmekteyiz. Elit escort hizmetlerimiz ile Esenyurt&apos;un en kaliteli escort deneyimini yaşayabilirsiniz. VIP üyelerimiz ile unutulmaz anlar yaşamak için hemen şimdi iletişime geçebilirsiniz.</p>
             </article>
+          </div>
+        </section>
+        
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-8">VIP Escort Hizmetleri</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Esenyurt VIP Escort</h3>
+                <p className="text-gray-600 mb-4">
+                  Esenyurt bölgesinde premium VIP escort hizmetleri sunuyoruz. Platin escort ve özel hizmetler için hemen iletişime geçin.
+                </p>
+                <Link href="/vip-escort-hizmetleri" className="text-blue-600 hover:text-blue-800">
+                  Detaylı Bilgi →
+                </Link>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Şirinevler VIP Escort</h3>
+                <p className="text-gray-600 mb-4">
+                  Şirinevler bölgesinde elit VIP escort hizmetleri sunuyoruz. Platin escort ve özel hizmetler için hemen iletişime geçin.
+                </p>
+                <Link href="/vip-escort-hizmetleri" className="text-blue-600 hover:text-blue-800">
+                  Detaylı Bilgi →
+                </Link>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Ataköy VIP Escort</h3>
+                <p className="text-gray-600 mb-4">
+                  Ataköy bölgesinde premium VIP escort hizmetleri sunuyoruz. Platin escort ve özel hizmetler için hemen iletişime geçin.
+                </p>
+                <Link href="/vip-escort-hizmetleri" className="text-blue-600 hover:text-blue-800">
+                  Detaylı Bilgi →
+                </Link>
+              </div>
+            </div>
           </div>
         </section>
         
