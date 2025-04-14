@@ -1,24 +1,57 @@
 import { MetadataRoute } from 'next';
 
 export const dynamic = 'force-static';
+export const revalidate = 3600; // her saat başı yenileme
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Site base URL
   const baseUrl = 'https://yigitistanbul.com';
+  const currentDate = new Date().toISOString();
   
-  const routes = [
-    '',
-    '/vip-escort-hizmetleri',
+  // Ana sayfalar
+  const mainPages = [
+    {
+      url: baseUrl,
+      lastModified: currentDate,
+      changeFrequency: 'daily' as const,
+      priority: 1
+    },
+    {
+      url: `${baseUrl}/vip-escort-hizmetleri`,
+      lastModified: currentDate,
+      changeFrequency: 'daily' as const,
+      priority: 0.9
+    }
+  ];
+
+  // Bölge sayfaları
+  const locationPages = [
     '/avcilar-escort',
     '/avrupa-yakasi-escort',
     '/bahcesehir-escort',
     '/beylikduzu-escort',
+    '/esenyurt-escort'
+  ].map(route => ({
+    url: `${baseUrl}${route}`,
+    lastModified: currentDate,
+    changeFrequency: 'daily' as const,
+    priority: 0.8
+  }));
+
+  // Kategori sayfaları
+  const categoryPages = [
     '/elit-escort',
     '/escort-bayan',
-    '/esenyurt-escort',
-    '/esenyurt-escort-bayan',
     '/ozel-escort',
-    '/profesyonel-escort',
+    '/profesyonel-escort'
+  ].map(route => ({
+    url: `${baseUrl}${route}`,
+    lastModified: currentDate,
+    changeFrequency: 'weekly' as const,
+    priority: 0.7
+  }));
+
+  // Platin escort sayfaları
+  const platinPages = [
     '/platin-escort',
     '/platin-bus',
     '/platin-selin',
@@ -29,12 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/platin-cemre',
     '/platin-hanzade',
     '/platin-ilayda'
-  ].map((route) => ({
+  ].map(route => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date().toISOString(),
-    changeFrequency: (route === '' ? 'daily' : 'weekly') as 'daily' | 'weekly',
-    priority: route === '' ? 1 : route === '/vip-escort-hizmetleri' ? 0.9 : 0.8,
+    lastModified: currentDate,
+    changeFrequency: 'daily' as const,
+    priority: 0.8
   }));
 
-  return routes;
+  return [...mainPages, ...locationPages, ...categoryPages, ...platinPages];
 } 

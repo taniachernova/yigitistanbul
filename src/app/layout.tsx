@@ -88,7 +88,10 @@ export default function RootLayout({
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://yigitistanbul.com" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/kiss.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/kiss.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/kiss.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/kiss.png" />
         <Script
           id="structured-data"
           type="application/ld+json"

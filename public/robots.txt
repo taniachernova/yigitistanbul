@@ -6,10 +6,15 @@ Allow: /
 Allow: /vip-escort-hizmetleri
 Allow: /images/platin/
 Allow: /images/altin/
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.webp$
 
 # Disallow admin and private paths
 Disallow: /admin/
 Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
 Disallow: /*.json$
 
 # Sitemap

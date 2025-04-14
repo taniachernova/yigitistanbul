@@ -7,7 +7,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Esenyurt VIP Escort Hizmetleri | Şirinevler Ataköy VIP Escort',
   description: 'Esenyurt, Şirinevler ve Ataköy bölgelerinde premium VIP escort hizmetleri. Özel platin escort hizmetleri, Büsra, Selin, Jülide, Olga, Pelin, Sabina, Cemre, Hanzade, İlayda.',
-  keywords: 'esenyurt vip escort, şirinevler vip escort, ataköy vip escort, vip escort hizmetleri, platin escort, özel escort, profesyonel escort, esenyurt escort, şirinevler escort, ataköy escort, Büsra escort, Selin escort, Jülide escort, Olga escort, Pelin escort, Sabina escort, Cemre escort, Hanzade escort, İlayda escort',
+  keywords: 'esenyurt vip escort, şirinevler vip escort, ataköy vip escort, vip escort hizmetleri, platin escort, özel escort, profesyonel escort, esenyurt escort, şirinevler escort, ataköy escort',
   alternates: {
     canonical: 'https://yigitistanbul.com/vip-escort-hizmetleri',
   },
@@ -18,20 +18,11 @@ export const metadata: Metadata = {
     siteName: 'Esenyurt VIP Escort',
     locale: 'tr_TR',
     type: 'website',
-    images: [
-      {
-        url: 'https://yigitistanbul.com/images/vip-og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Esenyurt VIP Escort Hizmetleri',
-      }
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Esenyurt VIP Escort Hizmetleri | Şirinevler Ataköy VIP Escort',
     description: 'Esenyurt, Şirinevler ve Ataköy bölgelerinde premium VIP escort hizmetleri. Özel platin escort hizmetleri, Büsra, Selin, Jülide, Olga, Pelin, Sabina, Cemre, Hanzade, İlayda.',
-    images: ['https://yigitistanbul.com/images/vip-twitter-image.jpg'],
   },
 };
 
